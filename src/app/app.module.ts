@@ -13,7 +13,7 @@ import {GmapsLibModule} from '../../projects/ng-gmaps/src/lib/gmaps-lib.module';
   imports: [
     BrowserModule,
     GmapsLibModule.forRoot({
-      apiKey: 'AIzaSyDpHxbJAw5POUSS964IpdC93xxu2qQfEMA',
+      apiKey: '',
       libraries: ['places']
     }),
     AppRoutingModule,
